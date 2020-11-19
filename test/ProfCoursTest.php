@@ -325,7 +325,7 @@ class ProfCoursTest extends TestCase
 
         // Cours
         
-        $cours = new Cours($this->intitule, $this->duree, $idProf);
+        $cours = new Cours($this->intitule, $this->duree, $idCours);
         $val = $cours->updateOne($conn, $idCours);
         $expected_cours_str = $cours->toString();
         $record_cours = Cours::printOne($conn, $idCours);
