@@ -273,7 +273,8 @@ class ProfCoursTest extends TestCase
         $expected = self::$cours_a[0]->__toString();
         $this->assertEquals($expected, $cours_str, "Cours \n");
         
-           
+
+
 
         // Avec des ID
         $idProf = 10;
